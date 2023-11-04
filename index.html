@@ -45,8 +45,8 @@
             
             // Make an HTTP POST request to a hypothetical server
             // fetch("https://language-prediction-service.onrender.com/predict", {
-            
-            fetch("https://langauge-predicted.onrender.com/predict", {
+            const serviceAddress = "https://ml-language-web-service.onrender.com"
+            fetch(serviceAddress, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
